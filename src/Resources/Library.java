@@ -2,6 +2,8 @@ package Resources;
 
 import java.util.Arrays;
 
+import java.util.ArrayList;
+
 public class Library {
 
     public static int[] sortDesending(int[] arr) {
@@ -75,6 +77,53 @@ public class Library {
         }
 
         return result;
+
+
+        public static int Frequency(String str, char ch){ // counts the ch' frequency
+            char[] arr =  str.toCharArray(); // [A, B, B]
+
+            int count = 0; //1
+            for(char each  : arr ){ //3   each: A , B, B
+                if(each == ch){
+                    count++;
+                }
+            }
+
+            return count;
+        }
+
+
+        public static String uniques(String str){ // "AABCDCD"
+            String result = ""; //ACD
+            for(int i=0; i < str.length(); i++){
+                int num = Frequency(str, str.charAt(i) );
+                if( num == 1){
+                    result += str.charAt(i);
+                }
+            }
+
+            return result;
+        }
+
+
+        public static int max(ArrayList<Integer> list){  //returns max number from arraylist
+            int maximum = Integer.MIN_VALUE;
+            for(int i = 0; i < list.size(); i++){
+
+                if(list.get(i) > maximum ){
+                    maximum = list.get(i);
+                }
+
+            }
+
+            return maximum;
+        }
+
+
+
+
+
+
     }
 
 

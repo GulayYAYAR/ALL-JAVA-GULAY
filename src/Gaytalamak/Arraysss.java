@@ -76,6 +76,7 @@ public class Arraysss {
             }
         }
         System.out.println("============");
+
         String string = "AABCBBADD";
         // A->3 , B->3, C->1, D->2
         String nonDup = "";

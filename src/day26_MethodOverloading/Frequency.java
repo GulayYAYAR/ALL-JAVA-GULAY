@@ -27,13 +27,13 @@ public class Frequency {
 
         String str2 = "ABCDEFGABABABABA";
         char ch2 = 'B';
-        int num2 = frequency(str2, ch2);
+        int num2 = Frequency(str2, ch2);
         System.out.println(num2);
 
 
     }
 
-    public static int frequency(String str, char ch){ // counts the ch' frequency
+    public static int Frequency(String str, char ch){ // counts the ch' frequency
         char[] arr =  str.toCharArray(); // [A, B, B]
 
         int count = 0; //1

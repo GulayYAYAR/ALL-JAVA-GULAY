@@ -49,7 +49,7 @@ public class AverageNumber {
 
         double san [] ={4, 7, 9, 34, 56};
 
-        int length2 =san.length;
+        int length2 =san.length;//5
 
 
          int sum2 =0;

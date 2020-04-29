@@ -24,8 +24,16 @@ public class REPLITSSS {
         System.out.println(r1);     //4
         System.out.println(r0);     //5
 
-
+        System.out.println("+=======++++++++++++=++==+==++++++++++++++");
         //////////////----//////////
+      String one = "ceren";
+      String two="12345";
+
+        for (int i=0; i<one.length(); i++) {     //ceren
+            for (int m = i; m < two.length(); m++) {   //12345
+                System.out.println();
+            }
+        }
 
 
 
@@ -33,11 +41,7 @@ public class REPLITSSS {
 
 
 
-
-
-
-
-    }
+            }
 
 
 
