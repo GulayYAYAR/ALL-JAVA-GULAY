@@ -82,5 +82,28 @@ public class ValueOfMethods {
 
         Integer[] arr2 = new Integer[3];
         System.out.println(Arrays.toString(arr2));
+
+        System.out.println("==============================================");
+
+        String po ="234568";
+        Integer i = Integer.valueOf(po);
+        System.out.println(i-1);
+
+      double ll= Double.valueOf(po);
+        System.out.println(ll-1);
+
+        System.out.println(i==ll);
+
+
+
+
+
+
+
+
+
+
+
+
     }
     }

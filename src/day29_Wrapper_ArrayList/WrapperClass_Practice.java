@@ -2,10 +2,11 @@ package day29_Wrapper_ArrayList;
 /*
 Given:
 	String[] arr = {"1","2.5", "3", "3.5", "4.5"}
-	find thhe maximum and minimum numbers
+	find the maximum and minimum numbers
 		NOTE: Do not use sort method
  */
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class WrapperClass_Practice {
@@ -44,6 +45,49 @@ public class WrapperClass_Practice {
         System.out.println(Arrays.toString(numbers));
 
         System.out.println(numbers[numbers.length - 1]);
+
+
+        System.out.println("======================================");
+
+        String[] san ={"5.5", "6", "7.6","9"};
+
+        double maxim  = Double.MAX_VALUE;
+
+
+        for (String each :san){
+
+           double number = Double.valueOf(each);
+
+           if (maxim>number){
+                maxim=number;
+
+            }
+        }
+        System.out.println(maxim);
+
+
+        System.out.println("===================================");
+
+
+        String [] kk= {"12.5", "34", "45.8", "67", "90"};
+
+         double [] sanlar = new double [kk.length];
+
+         for (int i=0; i<kk.length; i++){
+             sanlar[i]= Double.parseDouble(kk[i]);
+         }
+
+        Arrays.sort(sanlar);
+
+        System.out.println(Arrays.toString(sanlar));
+        System.out.println(sanlar[sanlar.length-1]);
+
+
+
+
+
+
+
 
     }
     }

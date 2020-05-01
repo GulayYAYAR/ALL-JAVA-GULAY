@@ -58,5 +58,26 @@ public class ParseMethods {
         System.out.println(r2);
 
 
+        System.out.println("============================================");
+
+        String numer = "2345667";
+
+        int mm= Integer.parseInt(numer);
+
+        System.out.println(mm-7);
+
+
+        String san = "34.5";
+        double nn = Double.parseDouble(san);
+        System.out.println(san+2);
+
+
+        String  job = "false";
+
+       boolean ma = Boolean.parseBoolean(job);
+
+        System.out.println(ma);
+
+
     }
     }

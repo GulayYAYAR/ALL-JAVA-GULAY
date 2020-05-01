@@ -2,7 +2,7 @@ package day29_Wrapper_ArrayList;
 
 import java.util.ArrayList;
 
-import Resources.Library;
+//import Resources.Library;
 
 public class List_Practice2 {
       /*
@@ -25,9 +25,9 @@ public class List_Practice2 {
 
         //  int maximum = Integer.MIN_VALUE;
         int maximum = list.get(0);
-        for(int i = 0; i < list.size(); i++){
+        for (int i = 0; i < list.size(); i++) {
 
-            if(list.get(i) > maximum ){
+            if (list.get(i) > maximum) {
                 maximum = list.get(i);
             }
 
@@ -38,16 +38,16 @@ public class List_Practice2 {
 
         int maximum2 = Integer.MIN_VALUE;
 
-        for(Integer each  : list){
+        for (Integer each : list) {
 
-            if(each > maximum2 ){
+            if (each > maximum2) {
                 maximum2 = each;
             }
 
         }
 
         System.out.println(maximum2);
-
+/*
         ArrayList<Integer>  list2 = new ArrayList<>();
         list2.add(5000);
         list2.add(200);
@@ -58,6 +58,8 @@ public class List_Practice2 {
 
 
     }
+
+
 
 
     public static int max(ArrayList<Integer> list){
@@ -71,6 +73,33 @@ public class List_Practice2 {
         }
 
         return maximum;
-    }
 
+
+ */
+        System.out.println("================================================");
+
+        ArrayList<Integer> liste = new ArrayList<>();
+        liste.add(90);
+        liste.add(99);
+        liste.add(100);
+        list.add(108);
+
+        int max = Integer.MIN_VALUE;
+
+        for (int i=0; i<liste.size(); i++){
+            if (liste.get(i)>max){
+                max=liste.get(i);
+            }
+        }
+        System.out.println(max);
+
+        int max2 =liste.get(0);
+       for (Integer each: liste){
+           if(each>max2){
+               max2=each;
+           }
+       }
+        System.out.println(max2);
+
+    }
 }

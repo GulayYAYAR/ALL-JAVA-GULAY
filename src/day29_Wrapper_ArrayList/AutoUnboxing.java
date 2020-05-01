@@ -12,5 +12,7 @@ public class AutoUnboxing {
         short short1 = byte1;    // unboxing
         byte b2 = byte1;        // unboxing
         int int1 = byte1;       // unboxing
-    }
+        System.out.println("===============");
+
+     }
 }

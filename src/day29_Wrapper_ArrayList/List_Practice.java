@@ -42,5 +42,36 @@ public class List_Practice {
         System.out.println( shoppingList.get(2)  );
         System.out.println( shoppingList.get(4)  );
  */
+
+        System.out.println("=======================================");
+
+        ArrayList<String> klasdaslar = new ArrayList<>();
+
+        klasdaslar.add("Mahri");
+        klasdaslar.add("Gowher");
+        klasdaslar.add("Jennet");
+        klasdaslar.add("Aysoltan");
+
+        System.out.println(klasdaslar);
+
+
+        for (int i=0; i<klasdaslar.size(); i++){
+            System.out.println(klasdaslar.get(i));
+        }
+        System.out.println();
+
+       for(String each:klasdaslar){
+           System.out.println(each);
+       }
+
+
+       int sizee =klasdaslar.size();
+        System.out.println(sizee);
+
+
+        int lasindexx =klasdaslar.size()-1;
+        System.out.println(lasindexx);
+
+
     }
     }

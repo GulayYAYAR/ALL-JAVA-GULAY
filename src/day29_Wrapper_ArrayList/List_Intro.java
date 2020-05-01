@@ -33,6 +33,21 @@ public class List_Intro {
                 Do not use any sorting
          */
 
+        System.out.println("===============================================");
 
+        ArrayList<Integer> sanlar = new ArrayList<>();
+
+        sanlar.add(6);
+        sanlar.add(8);
+        sanlar.add(90);
+
+       int w = sanlar.get(2);
+       double bb =sanlar.get(1);
+
+
+       System.out.println(sanlar);
+
+        System.out.println(w);
+        System.out.println(bb);
     }
     }
