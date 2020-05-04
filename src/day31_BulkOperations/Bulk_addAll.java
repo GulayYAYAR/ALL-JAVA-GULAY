@@ -54,5 +54,38 @@ public class Bulk_addAll {
         System.out.println(numList);
 
 
+        System.out.println("-==================================");
+
+      ArrayList<Integer> sanlar = new ArrayList<>();
+
+      Integer [] op = {1, 2, 3, 4, 5, 6, 7};
+
+      sanlar.addAll(Arrays.asList(op));
+
+        System.out.println(sanlar);
+
+
+
+
+        ArrayList<String> atlar = new ArrayList<>();
+
+        String [] gyzlar = {"Bilbil", "Guncha", "Sirin", "Keyik"};
+
+        atlar.addAll(Arrays.asList(gyzlar));
+
+        System.out.println(atlar);
+
+        atlar.add("Osman");
+
+        System.out.println(atlar);
+
+        atlar.remove(atlar.size()-2);
+        System.out.println(atlar);
+
+
+
+
+
+
     }
     }

@@ -65,6 +65,7 @@ public class Uniques {
         sanlar.add(3);
         sanlar.add(4);
         sanlar.add(1);
+        sanlar.add(5);
         sanlar.add(2);
 
         System.out.println(sanlar);
@@ -85,5 +86,7 @@ public class Uniques {
         }
         System.out.println(sanlar);
         System.out.println(uniq);
+
+
     }
 }

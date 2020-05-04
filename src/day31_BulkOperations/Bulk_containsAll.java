@@ -32,5 +32,24 @@ public class Bulk_containsAll {
         System.out.println(result3);
 
         // list1.containsAll( 1,2,3,4,5 );
+
+
+        System.out.println("=====================================");
+
+
+
+        ArrayList<Integer> sanlar = new ArrayList<>();
+
+        Integer [] po = {5, 6, 7, 8, 9, 10};
+
+       boolean pp =  sanlar.addAll(Arrays.asList(po));
+
+        System.out.println(sanlar);
+        System.out.println(pp);
+
+
+
+
+
     }
 }

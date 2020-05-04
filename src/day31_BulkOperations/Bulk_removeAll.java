@@ -45,6 +45,23 @@ public class Bulk_removeAll {
              1. write a program that can remove duplicates from an arraylist
          */
 
+
+        System.out.println("===================================");
+
+        ArrayList<String> klas = new ArrayList<>();
+
+        String aklas [] = {"alma", "uzum", "lol", "muz", "cilek", "alma", "lol"};
+        klas.addAll(Arrays.asList(aklas));
+
+        System.out.println(klas);
+
+        klas.removeAll(Arrays.asList("lol"));
+        System.out.println(klas);
+
+        klas.retainAll(Arrays.asList("alma"));
+        System.out.println(klas);
+
+
     }
 
 

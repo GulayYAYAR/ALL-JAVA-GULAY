@@ -71,5 +71,53 @@ public class ArrayList_Methods {
         list3.clear();  // removes everything, size : 0
         boolean r4 = list3.isEmpty();
         System.out.println(r4);
+
+
+        System.out.println("=============================================");
+
+        ArrayList<String> harp =new ArrayList<>();
+        harp.add("l");
+        harp.add("m");
+        harp.add("k");
+
+        boolean po = harp.contains("j");
+        System.out.println(po);
+
+
+       ArrayList<String> harp2 = new ArrayList<>();
+       harp2.add("k");
+       harp2.add("m");
+       harp2.add("l");
+
+       Collections.sort(harp);
+       Collections.sort(harp2);
+        System.out.println(harp);
+        System.out.println(harp2);
+
+       boolean kk = harp.equals(harp2);
+        System.out.println(kk);
+
+
+        ArrayList<Integer>  sanlar  = new ArrayList<>();
+        sanlar.add(1);
+        sanlar.add(2);
+        sanlar.add(3);
+        sanlar.add(4);
+        sanlar.add(5);
+
+        System.out.println(sanlar);
+
+
+        ArrayList<Integer> reversanlar = new ArrayList<>();
+
+        for (int i =sanlar.size()-1; i>=0; i--){
+            reversanlar.add(sanlar.get(i));
+
+        }
+        System.out.println(sanlar);
+        System.out.println(reversanlar);
+
+
+
     }
 }

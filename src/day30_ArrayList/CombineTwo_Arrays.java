@@ -47,5 +47,6 @@ public class CombineTwo_Arrays {
             gosmak.add(each);
         }
         System.out.println(gosmak);
+
     }
     }
