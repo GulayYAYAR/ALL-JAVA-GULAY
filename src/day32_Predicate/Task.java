@@ -1,5 +1,10 @@
 package day32_Predicate;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.function.Predicate;
+
 public class Task {
 
       /*
@@ -28,8 +33,37 @@ public class Task {
 			  4. Use predicate and collections methods only
 		Hint:   Collections.frequency() // will return the frequency
 				removeIf( frequency > 1)  can keep the duplicated objects in arrayList
-       */
+
+      */
+
 /*
+    public static void main(String[] args) {
+        Predicate <Integer> uniq = x -> x.;
+
+        ArrayList<Integer> list = new ArrayList<>();
+        list.addAll(Arrays.asList(1,2,3,4,2,3,4,5,6)); //1,5,6
+
+
+        Collections.frequency(list, uniq);
+
+        list.removeIf(uniq);
+
+        System.out.println(list);
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+      /*
 3. task:
 			1. create an ArrayList of string called country names
 			2. write a program that can remove all the country names that have length of 10 or greater

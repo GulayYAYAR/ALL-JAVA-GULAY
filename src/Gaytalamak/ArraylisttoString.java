@@ -14,7 +14,7 @@ public class ArraylisttoString {
         }
 
         System.out.println(a);
-
+/*
         System.out.println("======================");
         public static void removeAll (ArrayList<String> wordList, String targetWord){
 
@@ -29,6 +29,8 @@ public class ArraylisttoString {
 
 
 
+
+ */
     }
 
 }
